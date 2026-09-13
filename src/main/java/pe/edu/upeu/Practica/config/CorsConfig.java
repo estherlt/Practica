@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry corsRegistry) {
                 corsRegistry.addMapping("/api/**")
-                        .allowedOrigins("http://localhost:4200", "http://localhost:5173")
+                        .allowedOrigins("http://localhost:4040", "http://localhost:5183")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
